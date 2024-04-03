@@ -17,11 +17,12 @@
     "@bot"
   ],
   "group_name_white_list": [
-    "ChatGPT测试群",
-    "ChatGPT测试群2"
+    "ChatGPT群",
+    "ChatGPT群2"
   ],
   "image_create_prefix": [
-    "画"
+    "画",
+    "请画"
   ],
   "speech_recognition": true,
   "group_speech_recognition": false,
