@@ -1,8 +1,8 @@
 {
   "channel_type": "wx",
-  "model": "gpt-4-0125-preview",
+  "model": "claude-3-sonnet-20240229",
   "open_ai_api_key": "OPENAI_API_KEY",
-  "claude_api_key": "YOUR API KEY",
+  "claude_api_key": "CLAUDE_API_KEY",
   "text_to_image": "dall-e-3",
   "voice_to_text": "openai",
   "text_to_voice": "openai",
