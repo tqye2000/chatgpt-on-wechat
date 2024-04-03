@@ -1,6 +1,6 @@
 {
   "channel_type": "wx",
-  "model": "",
+  "model": "gpt-4-0125-preview",
   "open_ai_api_key": "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",
   "claude_api_key": "YOUR API KEY",
   "text_to_image": "dall-e-3",
