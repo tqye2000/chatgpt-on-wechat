@@ -1,6 +1,6 @@
 {
   "channel_type": "wx",
-  "model": "gpt-4-0125-preview",
+  "model": "gpt-3.5-turbo",
   "open_ai_api_key": "YOUR API KEY",
   "claude_api_key": "YOUR API KEY",
   "text_to_image": "dall-e-3",
