@@ -10,18 +10,23 @@
   "hot_reload": false,
   "single_chat_prefix": [
     "bot",
-    "@bot"
+    "@bot",
+    "@精灵",
+    "@亲",
   ],
-  "single_chat_reply_prefix": "[bot] ",
+  "single_chat_reply_prefix": "[精灵] ",
   "group_chat_prefix": [
+    "@精灵",
+    "@亲",
     "@bot"
   ],
   "group_name_white_list": [
-    "ChatGPT测试群",
-    "ChatGPT测试群2"
+    "ChatGPT群",
+    "ChatGPT群2"
   ],
   "image_create_prefix": [
-    "画"
+    "画",
+    "请画"
   ],
   "speech_recognition": true,
   "group_speech_recognition": false,
