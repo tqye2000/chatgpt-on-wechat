@@ -21,28 +21,28 @@ available_setting = {
     "azure_deployment_id": "",  # azure 模型部署名称
     "azure_api_version": "",  # azure api版本
     # Bot触发配置
-    "single_chat_prefix": ["bot", "@bot"],  # 私聊时文本需要包含该前缀才能触发机器人回复
-    "single_chat_reply_prefix": "[bot] ",  # 私聊时自动回复的前缀，用于区分真人
+    "single_chat_prefix": ["bot", "@bot", "@精灵"],  # 私聊时文本需要包含该前缀才能触发机器人回复
+    "single_chat_reply_prefix": "[精灵] ",  # 私聊时自动回复的前缀，用于区分真人
     "single_chat_reply_suffix": "",  # 私聊时自动回复的后缀，\n 可以换行
-    "group_chat_prefix": ["@bot"],  # 群聊时包含该前缀则会触发机器人回复
+    "group_chat_prefix": ["@bot", "@精灵"],  # 群聊时包含该前缀则会触发机器人回复
     "group_chat_reply_prefix": "",  # 群聊时自动回复的前缀
     "group_chat_reply_suffix": "",  # 群聊时自动回复的后缀，\n 可以换行
     "group_chat_keyword": [],  # 群聊时包含该关键词则会触发机器人回复
     "group_at_off": False,  # 是否关闭群聊时@bot的触发
-    "group_name_white_list": ["ChatGPT测试群", "ChatGPT测试群2"],  # 开启自动回复的群名称列表
+    "group_name_white_list": ["ChatGPT群", "ChatGPT群2"],  # 开启自动回复的群名称列表
     "group_name_keyword_white_list": [],  # 开启自动回复的群名称关键词列表
     "group_chat_in_one_session": ["ChatGPT测试群"],  # 支持会话上下文共享的群名称
     "nick_name_black_list": [],  # 用户昵称黑名单
     "group_welcome_msg": "",  # 配置新人进群固定欢迎语，不配置则使用随机风格欢迎 
     "trigger_by_self": False,  # 是否允许机器人触发
-    "text_to_image": "dall-e-2",  # 图片生成模型，可选 dall-e-2, dall-e-3
+    "text_to_image": "dall-e-3",  # 图片生成模型，可选 dall-e-2, dall-e-3
     "image_proxy": True,  # 是否需要图片代理，国内访问LinkAI时需要
     "image_create_prefix": ["画", "看", "找"],  # 开启图片回复的前缀
     "concurrency_in_session": 1,  # 同一会话最多有多少条消息在处理中，大于1可能乱序
-    "image_create_size": "256x256",  # 图片大小,可选有 256x256, 512x512, 1024x1024 (dall-e-3默认为1024x1024)
+    "image_create_size": "1024x1024",  # 图片大小,可选有 256x256, 512x512, 1024x1024 (dall-e-3默认为1024x1024)
     "group_chat_exit_group": False, 
     # chatgpt会话参数
-    "expires_in_seconds": 3600,  # 无操作会话的过期时间
+    "expires_in_seconds": 36000,  # 无操作会话的过期时间
     # 人格描述
     "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",
     "conversation_max_tokens": 1000,  # 支持上下文记忆的最多字符数
@@ -50,7 +50,7 @@ available_setting = {
     "rate_limit_chatgpt": 20,  # chatgpt的调用频率限制
     "rate_limit_dalle": 50,  # openai dalle的调用频率限制
     # chatgpt api参数 参考https://platform.openai.com/docs/api-reference/chat/create
-    "temperature": 0.9,
+    "temperature": 0.8,
     "top_p": 1,
     "frequency_penalty": 0,
     "presence_penalty": 0,
