@@ -10,10 +10,13 @@
   "hot_reload": false,
   "single_chat_prefix": [
     "bot",
-    "@bot"
+    "@bot",
+    "@精灵",
+    "亲"
   ],
-  "single_chat_reply_prefix": "[bot] ",
+  "single_chat_reply_prefix": "[精灵] ",
   "group_chat_prefix": [
+    "@精灵",
     "@bot"
   ],
   "group_name_white_list": [
